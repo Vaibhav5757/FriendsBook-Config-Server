@@ -8,5 +8,5 @@ spring:
         git:
           uri: ${GIT_URI}
           username: ${GIT_USERNAME}
-          password: ${GIT_PASSWORD}          search-paths:          - Eureka-Server*
+          password: ${GIT_PASSWORD}          search-paths:
           - User-Microservice*
