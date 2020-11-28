@@ -10,3 +10,4 @@ spring:
           username: ${GIT_USERNAME}
           password: ${GIT_PASSWORD}          search-paths:
           - User-Microservice*
+          - Eureka-Server*
