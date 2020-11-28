@@ -4,4 +4,6 @@ spring:
     config:
       server:
         git:
-          uri: ${GIT_URI}          search-paths:          - 
+          uri: ${GIT_URI}
+          username: ${GIT_USERNAME}
+          password: ${GIT_PASSWORD}          search-paths:          - 
