@@ -6,4 +6,4 @@ spring:
         git:
           uri: ${GIT_URI}
           username: ${GIT_USERNAME}
-          password: ${GIT_PASSWORD}          search-paths:          - 
+          password: ${GIT_PASSWORD}          search-paths:          - Eureka-Server*
