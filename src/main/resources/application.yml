@@ -11,3 +11,4 @@ spring:
           password: ${GIT_PASSWORD}          search-paths:
           - User-Microservice*
           - Eureka-Server*
+          - Front-End-Service*
