@@ -9,6 +9,6 @@ spring:
           uri: ${GIT_URI}
           username: ${GIT_USERNAME}
           password: ${GIT_PASSWORD}          search-paths:
-          - User-Microservice*
-          - Eureka-Server*
-          - Front-End-Service*
+          - user-microservice*
+          - eureka-server*
+          - front-end-service*
