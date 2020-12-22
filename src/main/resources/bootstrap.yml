@@ -1,2 +1,2 @@
 encrypt:
-  key: ${ENCRYPTION_KEY}
+  key: ${ENCRYPTION_KEY:asdasdzxcjnawkndasldnancxnasdnlasd}

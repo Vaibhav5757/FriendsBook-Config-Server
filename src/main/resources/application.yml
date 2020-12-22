@@ -4,9 +4,10 @@ spring:
     config:
       server:
         git:
-          uri: ${GIT_URI}
-          username: ${GIT_USERNAME}
-          password: ${GIT_PASSWORD}          search-paths:
+          uri: ${GIT_URI:C:\Users\vaibh\eclipse-workspace\FriendsBook\FriendsBook-Config}
+          username: ${GIT_USERNAME:null}
+          password: ${GIT_PASSWORD:null}          search-paths:
           - User-Microservice*
           - Eureka-Server*
           - Front-End-Service*
+server:  port: ${PORT:8500}
