@@ -1,13 +1,17 @@
 spring:
-  application:    name: Config-Server
+  application:
+    name: Config-Server
   cloud:
     config:
       server:
         git:
           uri: ${GIT_URI:C:\Users\vaibh\eclipse-workspace\FriendsBook\FriendsBook-Config}
           username: ${GIT_USERNAME:null}
-          password: ${GIT_PASSWORD:null}          search-paths:
+          password: ${GIT_PASSWORD:null}
+          search-paths:
           - User-Microservice*
           - Eureka-Server*
           - Front-End-Service*
-server:  port: ${PORT:8500}
+          - Post-Service*
+server:
+  port: ${PORT:8500}
